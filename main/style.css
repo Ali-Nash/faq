@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-margin:30px;
+}
+
+body{
+    background-color: #eee;
+}
+
+
+.content{
+    width:500px;
+    height: fit-content;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 30px 0 30px 0;
+
+}
+
+header{
+    display: flex;
+}
+header svg{
+    margin-top: 20px;
+    margin-left: var(--main-margin);
+    margin-right: var(--main-margin);
+}
+
+.section{
+    display:flex;
+}
+.section p{
+    margin-left: var(--main-margin);
+}
+
+.section svg{
+    margin-top: 10px;
+    margin-left: var(--main-margin);
+}
+
+.content > p{
+    margin-left: var(--main-margin);
+    color: black;
+    opacity: 0.7;
+}
+
+.Q-1,.Q-2,.Q-3{
+    display: flex;
+    margin-left: var(--main-margin);
+}
+.Q-1 svg,.Q-2 svg,.Q-3 svg{
+    margin-top: 10px;
+    margin-left: var(--main-margin);
+}
+
+.A-1,.A-2,.A-3{
+    display: none;
+}
